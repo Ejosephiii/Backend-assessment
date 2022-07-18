@@ -4,12 +4,45 @@
     <title>Back End Assessment</title>
   </head>
   <body class="container">
-      <button id="complimentButton">Get a compliment</button>
-      <button id="fortuneButton">Get a fortune</button>
-      
+    <button id="complimentButton">Get a compliment</button>
+
+    <button id="fortuneButton">Get a fortune</button>
+
+    <div>
+      <h2>POST</h2>
+      <input id="artistInput" type="text" placeholder="Input artist"/>
+      <button id="artistButton">Submit Artist</button>
+    </div>
+
+    <div>
+      <h2>PUT</h2>
+      <select id="indexSelect">
+        <option>zero</option>
+        <option>one</option>
+        <option>two</option>
+        <option>three</option>
+        <option>four</option>
+        <option>five</option>
+      </select>
+      <input id="newArtistInput" type="text" placeholder="Input new artist"/>
+      <button id="indexButton">Submit Index</button>
+    </div>
+
+    <div>
+      <h2>DELETE</h2>
+      <select id="indexSelectDelete">
+        <option>zero</option>
+        <option>one</option>
+        <option>two</option>
+        <option>three</option>
+        <option>four</option>
+        <option>five</option>
+      </select>
+      <button id="deleteButton">Delete Artist</button>
+    </div>
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-    
     
   </body>
 </html>
